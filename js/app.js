@@ -12,11 +12,11 @@ function showMenu() {
 	var restaurantMenu = this.querySelectorAll(".menu")[0];
 		if (restaurantMenu.visible === false) {
 			restaurantMenu.style.display = "initial";
-			restaurantMenu.visible = false;
+			restaurantMenu.visible = true;
 		}
 		else {
 			restaurantMenu.style.display = "none";
-			restaurantMenu.visible = true;
+			restaurantMenu.visible = false;
 		}
 }
 
